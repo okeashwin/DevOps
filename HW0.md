@@ -19,35 +19,36 @@ git merge bugFix
 
 ### Level 4
 
-git checkout -b bugFix
-git commit -m "Commit c2"
-git checkout master
-git commit -m "Commit c3"
-git checkout bugFix
-git rebase master
+git checkout -b bugFix  
+git commit -m "Commit c2"  
+git checkout master  
+git commit -m "Commit c3"  
+git checkout bugFix  
+git rebase master  
 
 ## Detach yo' HEAD
 
 ### Level 1
 
-git checkout C4
+git checkout C4  
 
 ### Level 2
 
-git checkout C4^
+git checkout C4^  
 
 ### Level 3
 
-git branch -f master C6
-git branch -f bugFix bugFix~3
-git checkout HEAD^
+git branch -f master C6  
+git branch -f bugFix bugFix~3  
+git checkout HEAD^  
 
 ### Level 4
 
-git reset HEAD~1
-git checkout pushed
-git revert HEAD
+git reset HEAD~1  
+git checkout pushed  
+git revert HEAD  
 
 ## Screenshot
+![alt tag] (https://github.ncsu.edu/aboke/HW/blob/master/GitScreenshot.jpg)
 
 
