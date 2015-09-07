@@ -2,8 +2,8 @@
 
 ### Level 1
 
-git commit -m "Commit c2"
-git commit -m "Commit c3"
+git commit -m "Commit c2"  
+git commit -m "Commit c3"  
 
 ### Level 2
 
@@ -11,11 +11,11 @@ git checkout -b bugFix
 
 ### Level 3
 
-git checkout -b bugFix
-git commit -m "Commit c2"
-git checkout master
-git commit -m "Commit c3"
-git merge bugFix
+git checkout -b bugFix  
+git commit -m "Commit c2"  
+git checkout master  
+git commit -m "Commit c3"  
+git merge bugFix  
 
 ### Level 4
 
