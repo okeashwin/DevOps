@@ -51,4 +51,13 @@ git revert HEAD
 ## Screenshot
 ![alt tag] (https://github.ncsu.edu/aboke/HW/blob/master/GitScreenshot.jpg)
 
+## Hooks
+![alt tag] (https://github.ncsu.edu/aboke/HW/blob/master/hooks.gif)
+
+Contents of the "post-commit" file
+```
+#!/bin/sh
+firefox http://www.google.com/
+
+```
 
